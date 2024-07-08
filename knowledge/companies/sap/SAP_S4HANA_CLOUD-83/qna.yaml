@@ -1,0 +1,70 @@
+created_by: yosimass
+document:
+  commit: d026e4b47a31e5f2f8fbf97151eedfcc93e833a1
+  patterns:
+  - sap-120-40/SAP_S4HANA_CLOUD-83/*.md
+  repo: https://github.ibm.com/conversational-ai/knowledge-infusion-rag
+domain: sap
+seed_examples:
+- answer: 'To process customer invoices, you can follow these steps:
+    1. Post an invoice in the source app. The system automatically creates an electronic
+    document.
+    2. In the eDocument Cockpit, in the Romania eInvoice process, select one or more
+    electronic documents and choose Submit. For each selected electronic document,
+    the system creates an XML file according to the predefined format and forwards
+    it to the external system.
+    3. The external system processes the XML file and returns a status of the document
+    to the system.
+    4. The system updates the status of the document in the eDocument Cockpit app.
+    '
+  question: ' How do I process customer invoices?'
+- answer: 'To create and send electronic, customer tax invoices, you can follow these
+    steps:
+    1. Configure the communication with external systems.
+    2. Create and send tax invoices in XML format to the National Tax Service (NTS)
+    and your customers via a service provider.
+    3. Respond to electronic, self-billing tax invoices that your customers create.
+    4. Approve or reject self-billing tax invoices that your customers create, and
+    send your response to them via a service provider.
+    5. Create and send self-billing tax invoices to suppliers for review via a service
+    provider.
+    6. Receive and verify electronic, supplier tax invoices.
+    7. Import supplier tax invoices into your SAP system.
+    8. Manage invoice verification tasks.
+    '
+  question: ' How do I create and send electronic, customer tax invoices?'
+- answer: 'The following features are supported in the reports:
+    1. Analyze Data: You can analyze the data in the reports.
+    2. Manual Adjustment: You can manually adjust the data in the reports.
+    3. Preview: You can preview the reports before submitting them.
+    4. Electronic Submission of Reports: You can electronically submit the reports.
+    5. Correction, Additional Correction, and Clarification Phases: You can correct,
+    add additional corrections, and clarify the reports.
+    6. Reporting Activity: You can manage tax items for legal reporting and manage
+    withholding tax items.
+    7. Tax Payable Posting: You can post tax payable.
+    '
+  question: ' What are the supported features in the statutory reports?'
+- answer: 'The following features are supported in the reports:
+    1. Analyze Data: You can analyze the data in the reports.
+    2. Manual Adjustment: You can manually adjust the data in the reports.
+    3. Preview: You can preview the reports before submitting them.
+    4. Electronic Submission of Reports: You can electronically submit the reports.
+    5. Correction, Additional Correction, and Clarification Phases: You can correct,
+    add corrections, and clarify the reports.
+    6. Reporting Activity: You can manage tax items for legal reporting and manage
+    withholding tax items.
+    '
+  question: ' What are the features supported in the reports?'
+- answer: 'To maintain a VAT number for a business partner, you can follow these steps:
+    1. Open the business partner master data in the Manage Business Partner Master
+    Data app.
+    2. Under , choose  Create.
+    3. In  Tax Category, enter &lt;XX&gt;0 (where &lt;XX&gt; is the two-digit ISO
+    country code of your business partner), and in  Tax Number, enter the VAT number.
+    4. Save your entries.
+    By following these steps, you can ensure that the VAT number is properly maintained
+    for the business partner.
+    '
+  question: ' How do I maintain a VAT number for a business partner?'
+task_description: knowledge infusion on SAP data
